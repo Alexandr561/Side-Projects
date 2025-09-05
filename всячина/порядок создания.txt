@@ -1,0 +1,32 @@
+стратегически не корректно забивать себе голову информацией, которая в 99% не понадобится
+0.composer create-project laravel/laravel name
+1. папка + cmd
+2.выбирать utf8-genetal-ci
+3.composer create-project laravel/laravel name устаноука ларавель
+4.php artisan make:model Post -m создает связанные 
+модель и миграцию 
+5.заменить DB_CONNECTION=mysql и DB_DATABASE=xxx2
+6.добавить в модель:  protected $table = 'posts'; protected $guarded = [];                     
+7.$table->softDeletes(); добавить в миграцию, для возможности восстановления после удаления. + добавить трейт use SoftDeletes в Post.
+8.Не забывать добавлять @csrf токен
+9.php artisan make:controller PostController --resource создавать ресурсный контроллер
+Paginator::defaultView('vendor.pagination.bootstrap-4'); строка для пагинации в  AppServiceProvider
+
+
+
+
+
+
+
+
+
+https://stackoverflow.com/questions/42570065/laravel-5-4-specified-key-was-too-long-error ссылка решение проблема с миграциями(решение в файле AppServiceProvider, находится в app)
+что нужно скопировать:
+// AppServiceProvider
+
+use Illuminate\Support\Facades\Schema;
+
+public function boot()
+{
+    Schema::defaultStringLength(191);
+}

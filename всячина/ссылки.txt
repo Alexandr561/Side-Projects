@@ -1,0 +1,41 @@
+https://laravel.su/docs/11.x/starter-kits   ларавель документация. Раздел Breeze
+https://laravel.com/docs/12.x/processes#concurrent-processes
+https://getbootstrap.com/docs/5.3/forms/form-control
+
+https://jwt-auth.readthedocs.io/en/develop/laravel-installation    JWT TOKEN  composer require tymon/jwt-auth --ignore-platform-reqs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git Hub:
+Malxazmane@yandex.ru
+ShuStrik13
+
+Figma:
+Malxazmane@yandex.ru
+Said1000
+
+Malxazmane@yandex.ru
+Said1000
+Result school
